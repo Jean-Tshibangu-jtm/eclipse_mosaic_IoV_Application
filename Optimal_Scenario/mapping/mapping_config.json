@@ -1,0 +1,40 @@
+{
+  "prototypes": [
+      {
+          "name": "in_t_pg_cfm_k_jm_m_lcm_e_kr",
+          "applications": ["org.eclipse.mosaic.app.trafficcongestion.TrafficConditionApp","org.eclipse.mosaic.app.trafficcongestion.SlowDownDrivingApp"]
+      },
+      {
+          "name": "in_t_pg_cfm_k_jm_m_lcm_e_m",
+          "applications": ["org.eclipse.mosaic.app.trafficcongestion.TrafficConditionApp","org.eclipse.mosaic.app.trafficcongestion.SlowDownDrivingApp"]
+      },      
+      {
+          "name": "in_t_pg_cfm_k_jm_a_lcm_e_kr",
+          "applications": ["org.eclipse.mosaic.app.trafficcongestion.TrafficConditionApp","org.eclipse.mosaic.app.trafficcongestion.SlowDownDrivingApp"]
+      },      
+      {
+          "name": "in_t_pg_cfm_k_jm_a_lcm_e_a",
+          "applications": ["org.eclipse.mosaic.app.trafficcongestion.TrafficConditionApp","org.eclipse.mosaic.app.trafficcongestion.SlowDownDrivingApp"]
+      }
+  ],
+  "tmcs": [
+        {
+            "name": "TrafficManagementControl",
+            "applications": [ "org.eclipse.mosaic.app.trafficcongestion.TrafficManagementControl"],
+            "inductionLoops": ["d_z_D109","d_z_CCB","d_z_D98","d_z_D11_lane1","d_z_D11_lane2","d_z_f_RA1_to_RA3_lane0","d_z_f_RA1_to_RA3_lane1","d_z_D30_lane1","d_z_D30_lane2","d_z_D30_Poissy_1","d_z_D30_Poissy_2","d_density_RA2_1","d_density_RA2_2","d_density_RA2_3","d_density_RA3_1","d_density_RA3_2","d_density_RA3_3","d_z_D11_RA6","d_z_D11_RA7"],
+            "laneAreaDetectors": [ "z_ccb_to_rp4_1", "z_ccb_to_rp4_2","z_D109","z_D98","z_f_RA1_to_RA4_1","z_f_RA1_to_RA2_lane1","z_f_RA2_to_RA3_lane1","z_f_RA3_to_RA4_lane1","z_f_RA5_to_RA4_lane1","z_f_RA5_to_RA4_lane2","z_f_R2PS_Auch_1","z_f_R2PS_Auch_2","z_f_avant_RA8_to_RA4_lane1","z_f_RA8_to_RA7_lane2","z_f_RA7_to_RA6_lane2","z_f_RA8_to_RA7_lane2_plus_partie_vers_RA7" ]
+        }
+    ],
+  "servers": [
+    {
+        "name": "ServerAp",
+        "group": "ServerApp",
+        "applications": ["org.eclipse.mosaic.app.trafficcongestion.TrafficServerApp"]
+    }
+]
+  
+}
+
+
+
+
