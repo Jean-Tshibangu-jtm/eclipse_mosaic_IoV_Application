@@ -1,0 +1,198 @@
+{
+	"events": 
+	[     
+		{
+			"type": 
+			{
+				"sensorType": "OBSTACLE",
+				"value": 1
+			},
+			"location":
+			{
+				"area":
+				{
+					"type": "Rectangle",
+					"a": 
+					{
+						"latitude": 48.827338, 
+						"longitude": 1.956808
+					},
+					"b": 
+					{ 
+						"latitude": 48.827287,  
+						"longitude": 1.968178
+					}
+				}
+			},
+			"time": 
+			{
+				"start": "500 s",
+				"end": "980 s"
+			}
+		},
+		{
+			"type": 
+			{
+				"sensorType": "OBSTACLE",
+				"value": 1
+			},
+			"location":
+			{
+				"area":
+				{
+					"type": "Rectangle",
+					"a": 
+					{
+						"latitude": 48.834329, 
+						"longitude": 1.957209
+					},
+					"b": 
+					{ 
+						"latitude": 48.828228,  
+						"longitude": 1.956087
+					}
+				}
+			},
+			"time": 
+			{
+				"start": "500 s",
+				"end": "980 s"
+			}
+		},
+
+		{
+			"type": 
+			{
+				"sensorType": "OBSTACLE",
+				"value": 1
+			},
+			"location":
+			{
+				"area":
+				{
+					"type": "Rectangle",
+					"a": 
+					{
+						"latitude": 48.827413,
+						"longitude": 1.968988
+					},
+					"b": 
+					{ 
+						"latitude": 48.828978, 
+						"longitude": 1.983284
+					}
+				}
+			},
+			"time": 
+			{
+				"start": "500 s",
+				"end": "980 s"
+			}
+		},
+
+
+
+		
+		{
+			"type": 
+			{
+				"sensorType": "OBSTACLE",
+				"value": 1
+			},
+			"location":
+			{
+				"area":
+				{
+					"type": "Rectangle",
+					"a": 
+					{
+						"latitude": 48.834780, 
+						"longitude":  1.968685 
+					},
+					"b": 
+					{ 
+						"latitude": 48.834800, 
+						"longitude": 1.961233
+					}
+				}
+			},
+			"time": 
+			{
+				"start": "2200 s",
+				"end": "2380 s"
+			}
+		},
+		
+		
+		
+		{
+			"type": 
+			{
+				"sensorType": "OBSTACLE",
+				"value": 1
+			},
+			"location":
+			{
+				"area":
+				{
+					"type": "Rectangle",
+					"a": 
+					{
+						"latitude": 48.833981, 
+						"longitude": 1.969903
+					},
+					"b": 
+					{ 
+						"latitude": 48.828217, 
+						"longitude": 1.968828 
+					}
+				}
+			},
+			"time": 
+			{
+				"start": "2200 s",
+				"end": "2380 s"
+			}
+		},
+		
+		
+		{
+			"type": 
+			{
+				"sensorType": "OBSTACLE",
+				"value": 1
+			},
+			"location":
+			{
+				"area":
+				{  
+					"type": "Rectangle",
+					"a": 
+					{
+						"latitude": 48.834575, 
+						"longitude": 1.972019
+					},
+					"b": 
+					{ 
+						"latitude": 48.834529, 
+						"longitude": 1.982556
+					}
+				}
+			},
+			"time": 
+			{
+				"start": "2200 s",
+				"end": "2380 s"
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+			]
+}
+
+
