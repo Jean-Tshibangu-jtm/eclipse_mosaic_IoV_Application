@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-03-02 22:30:42 by Eclipse SUMO sumo Version v1_16_0+0702-8919c10b8c1
+,detectors.add.xml
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml"/>
+        <route-files value="vtypes/passengers_globals.rou.xml, 
+                            vtypes/trucks_globals.rou.xml, 
+                            vtypes/cfm_krauss.rou.xml, 
+                            vtypes/cfm_wiedemann.rou.xml,
+                            vtypes/jm_aggressive.rou.xml, 
+                            vtypes/jm_moderate.rou.xml, 
+                            vtypes/lcm_erdmann_aggressive.rou.xml, 
+                            vtypes/lcm_erdmann_keep_right.rou.xml, 
+                            vtypes/lcm_erdmann_moderate.rou.xml, 
+                            vtypes/pedestrian_aggressive.rou.xml, 
+                            vtypes/pedestrian_moderate.rou.xml, 
+                            
+                                                      
+                            flows.rou.xml,
+                            osm.passenger.trips.xml,
+                            osm.truck.trips.xml,
+                            pedestrian_flows.rou.xml"/>
+                            
+                            <additional-files value="Emission.add.xml" />  
+
+
+          <!--  
+            vehicular_incoming_flows_real.rou.xml, 
+                            vehicular_outgoing_flows_real.rou.xml, flows.rou.xml,
+            <additional-files value="edges.add.xml, detectors.add.xml"/> -->
+          
+          
+
+    </input>
+     
+    <processing>
+      <ignore-route-errors value="true"/>
+    </processing>
+    
+    <routing>
+      <device.rerouting.adaptation-steps value="18"/>
+      <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+    
+    <report>
+      <verbose value="true"/>
+      <duration-log.statistics value="true"/>
+      <no-step-log value="true"/>
+    </report>
+       <time>
+        <step-length value="0.1"/>
+    </time>
+    
+    <gui_only>
+      <gui-settings-file value="osm.view.xml"/>
+    </gui_only> 
+    
+    <junction-taz value="true"/>
+
+    <extrapolate-departpos value="true"/>
+    
+</configuration>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+      
+ <!-- 
+    <inductionLoop id="d_z_D109" lane="-102164655_0" pos="0.98" period="60.00" file="outputs/debits/d_z_D109.xml" friendlyPos="1"/>
+    <inductionLoop id="d_z_CCB" lane="102164657_0" pos="0.98" period="60.00" file="outputs/debits/d_z_CCB.xml" friendlyPos="1"/>
+    <inductionLoop id="d_z_D98" lane="356789687_0" pos="2.98" period="60.00" file="outputs/debits/d_z_D98.xml" friendlyPos="1"/>
+    
+    <inductionLoop id="d_z_D11_lane1" lane="23749115#0_1" pos="0.98" period="60.00" file="outputs/debits/d_z_D11.xml" friendlyPos="1"/>
+    <inductionLoop id="d_z_D11_lane2" lane="23749115#0_2" pos="0.98" period="60.00" file="outputs/debits/d_z_D11.xml" friendlyPos="1"/>
+    
+    <inductionLoop id="d_z_D11_RA6" lane="160615652#0_1" pos="0.98" period="60.00" file="outputs/debits/d_z_D11.xml" friendlyPos="1"/>
+
+    <inductionLoop id="d_z_D11_RA7" lane="100376009_1" pos="0.98" period="60.00" file="outputs/debits/d_z_D11.xml" friendlyPos="1"/>
+    
+
+
+
+    <inductionLoop id="d_z_f_RA1_to_RA3_lane0" lane="881567591#0_0" pos="0.98" period="60.00" file="outputs/debits/d_z_f_RA1_to_RA3.xml" friendlyPos="1"/>
+    <inductionLoop id="d_z_f_RA1_to_RA3_lane1" lane="881567591#0_1" pos="0.98" period="60.00" file="outputs/debits/d_z_f_RA1_to_RA3.xml" friendlyPos="1"/>
+
+
+    <inductionLoop id="d_z_D30_lane1" lane="1107701847_1" pos="0.98" period="60.00" file="outputs/debits/d_z_D30.xml" friendlyPos="1"/>
+    <inductionLoop id="d_z_D30_lane2" lane="1107701847_2" pos="0.98" period="60.00" file="outputs/debits/d_z_D30.xml" friendlyPos="1"/>
+    <inductionLoop id="d_z_D30_Poissy_1" lane="22468241_0" pos="0.98" period="60.00" file="outputs/debits/d_z_D30.xml" friendlyPos="1"/>
+    <inductionLoop id="d_z_D30_Poissy_2" lane="22468241_1" pos="0.98" period="60.00" file="outputs/debits/d_z_D30.xml" friendlyPos="1"/>
+
+
+    <inductionLoop id="d_density_RA2_1" lane="542209564#2_0" pos="2.54" period="60.00" file="outputs/debits/d_density_D11_principal.xml" friendlyPos="1"/>
+    <inductionLoop id="d_density_RA2_2" lane="542209564#2_1" pos="2.39" period="60.00" file="outputs/debits/d_density_D11_principal.xml" friendlyPos="1"/>
+    <inductionLoop id="d_density_RA2_3" lane="221257123#6_0" pos="5.69" period="60.00" file="outputs/debits/d_density_D11_principal.xml" friendlyPos="1"/>
+
+    <inductionLoop id="d_density_RA3_1" lane="22650420#2_0" pos="7.80" period="60.00" file="outputs/debits/d_density_D11_principal.xml" friendlyPos="1"/>
+    <inductionLoop id="d_density_RA3_2" lane="22650420#2_1" pos="6.90" period="60.00" file="outputs/debits/d_density_D11_principal.xml" friendlyPos="1"/>
+    <inductionLoop id="d_density_RA3_3" lane="24520408#4_0" pos="3.67" period="60.00" file="outputs/debits/d_density_D11_principal.xml" friendlyPos="1"/>
+
+
+    <inductionLoop id="d_z_f_RA6_enter_parkikb" lane="160615652#0_1" pos="3.67" period="60.00" file="outputs/debits/d_density_D11_principal.xml" friendlyPos="1"/>
+
+   --> 
+
+
+     <laneAreaDetector id="z_ccb_to_rp4_1" lanes="102164657_0 619881884_0 102165688#0_0 102165688#1_0 1136268465_1 190876198_1 28000507#1_2" endPos="4.39" period="60.00" file="outputs/zones/z_ccb_to_rp4.xml"/>
+     <laneAreaDetector id="z_ccb_to_rp4_2" lanes="1136268465_0 190876198_0 28000507#1_1" pos="0.38" endPos="4.43" period="60.00" file="outputs/zones/z_ccb_to_rp4.xml"/>
+
+      <laneAreaDetector id="z_D109" lanes="-102164655_0 102165315_0" pos="2.46" endPos="20.40" period="60.00" file="outputs/zones/z_D109.xml"/>
+
+      <laneAreaDetector id="z_D98" lanes="E45_0 356789687_0 102165316_0 102165313_0" pos="13.96" endPos="19.93" period="60.00" file="outputs/zones/z_D98.xml"/>
+
+      <laneAreaDetector id="z_D30_4" lanes="22468241_1 881567588_1" pos="4.14" endPos="19.80" period="60.00" file="outputs/zones/z_D30.xml"/>
+      <laneAreaDetector id="z_D30_3" lanes="22468241_0 881567588_0 689277282_0 881567590#0_2 881567590#1_1" pos="3.39" endPos="4.55" period="60.00" file="outputs/zones/z_D30.xml"/>
+      <laneAreaDetector id="z_D30_2" lanes="28020970#1_0 1107701847_1" pos="1.70" endPos="142.96" period="60.00" file="outputs/zones/z_D30.xml"/>
+      <laneAreaDetector id="z_D30_1" lanes="28020970#1_1 1107701847_2 1107701847173_1 881567590#0_1 881567590#1_0" pos="2.36" endPos="4.33" period="60.00" file="outputs/zones/z_D30.xml"/>
+
+      <laneAreaDetector id="z_f_RA1_to_RA4_1" lanes="881567591#0_0 881567591#1_0 881567591#2_0 542209564#3_0 542209564#4_0 542209564#5_0 542209565_0 136182032#1_0 22650420#3_0 22650420#4_0 22650420#5_0 22650432_0 254360502#1_0 254360502#2_0 254360502#3_1" pos="2.17" endPos="5.37" period="60.00" file="outputs/zones/z_f_RA1_to_RA4.xml"/>
+      <laneAreaDetector id="z_f_RA1_to_RA2_lane1" lanes="881567591#0_1 881567591#1_1 881567591#2_1" pos="1.23" endPos="12.50" period="60.00" file="outputs/zones/z_f_RA1_to_RA2_lane1.xml"/>
+      <laneAreaDetector id="z_f_RA2_to_RA3_lane1" lanes="542209565_1 136182032#1_1" pos="2.86" endPos="0.21" period="60.00" file="outputs/zones/z_f_RA2_to_RA3.xml"/>
+
+   
+
+      <laneAreaDetector id="z_f_RA3_to_RA4_lane1" lanes="22650432_1 254360502#1_1 254360502#2_1 254360502#3_2" pos="0.69" endPos="4.84" period="60.00" file="outputs/zones/z_f_RA3_to_RA4_lane1.xml"/>
+
+
+
+      
+      <laneAreaDetector id="z_f_RA5_to_RA4_lane1" lanes="23749115#0_1 23749115#1_1 23749115#2_1" pos="1.97" endPos="4.95" period="60.00" file="outputs/zones/z_D11.xml"/>
+      <laneAreaDetector id="z_f_RA5_to_RA4_lane2" lanes="23749115#0_2 23749115#1_2 23749115#2_2" pos="1.25" endPos="5.42" period="60.00" file="outputs/zones/z_D11.xml"/>
+    <laneAreaDetector id="z_f_avant_RA8_to_RA4_lane1" lanes="22650367#5_1 22650367#6_1 22650375#6_1 22650375#7_0 22650375#1_1 22650414#0_1 22650414#0.19_1 22650414#1_1 22650414#2_1 22650414#2.34_1 22650414#3_1 23749113#1_1 23749113#2_0 23749113#3_1 23749115#0_1 23749115#1_1 23749115#2_1" pos="1.23" endPos="4.09" period="60.00" file="outputs/zones/z_D11.xml"/>
+   
+
+
+   <laneAreaDetector id="z_f_RA8_to_RA7_lane2" lanes="22650367#0_1 22650367#1_1 22650367#2_0 22650367#4_1 22650367#5_2" pos="0.82" endPos="56.34" period="60.00" file="outputs/zones/z_D11.xml"/>
+    <laneAreaDetector id="z_f_RA8_to_RA7_lane2_plus_partie_vers_RA7" lanes="22650367#6_2 22650375#6_2 22650375#7_1 22650375#1_2" pos="2.97" endPos="13.83" period="60.00" file="outputs/zones/z_D11.xml"/>
+   
+
+
+    <laneAreaDetector id="z_f_RA7_to_RA6_lane2" lanes="22650414#0_2 22650414#0.19_2 22650414#1_2 22650414#2_2 22650414#2.34_2 22650414#3_2 23749113#1_2 23749113#2_1 23749113#3_2" pos="3.95" endPos="10.16" period="60.00" file="outputs/zones/z_D11.xml"/>
+   
+
+
+    
+    <laneAreaDetector id="z_f_R2PS_Auch_1" lanes="814259719_0 689277284#0_0 689277288#0_0 689277288#1_0 689277288#2_0 881567591#0_0 881567591#1_0 881567591#2_0" pos="4.87" endPos="13.13" period="60.00" file="outputs/z_r2ps_to_ach1_mgp.xml"/>
+    
+    <laneAreaDetector id="z_f_R2PS_Auch_2" lanes="689277284#1_0 689277284#2_0 689277281#7_0 689277286#0_0 689277286#1_0 881567591#0_1 881567591#1_1 881567591#2_1" pos="0.46" endPos="12.75" period="60.00" file="outputs/z_r2ps_to_ach1_mgp.xml"/>
+   
+ 
+
+    
+ <!--    
+
+
+    <inductionLoop id="d_rp1_entry_1" lane="689277284#2_0" pos="0.98" period="60.00" file="outputs/d_rp1_entries.xml" friendlyPos="1"/>
+    <inductionLoop id="d_rp1_entry_2" lane="1024920555#1_1" pos="1.75" period="60.00" file="outputs/d_rp1_entries.xml" friendlyPos="1"/>
+   
+    
+    <laneAreaDetector id="detector_1" lanes="814259719_0 689277284#0_0 689277288#0_0 689277288#1_0 689277288#2_0 881567591#0_0 881567591#1_0 881567591#2_0" pos="4.87" endPos="13.13" period="60.00" file="outputs/z_r2ps_to_ach1_mgp.xml"/>
+    
+    <laneAreaDetector id="detector_0" lanes="689277284#1_0 689277284#2_0 689277281#7_0 689277286#0_0 689277286#1_0 881567591#0_1 881567591#1_1 881567591#2_1" pos="0.46" endPos="12.75" period="60.00" file="outputs/z_r2ps_to_ach1_mgp.xml"/>
+   
+ 
+ <laneAreaDetector id="detector_1" lanes="814259719_0 689277284#0_0 689277288#0_0 689277288#1_0 689277288#2_0 881567591#0_0 881567591#1_0 881567591#2_0" pos="4.87" endPos="13.13" period="60.00" file="outputs/z_r2ps_to_ach1_mgp.xml"/>
+    <laneAreaDetector id="detector_0" lanes="689277284#1_0 689277284#2_0 689277281#7_0 689277286#0_0 689277286#1_0 881567591#0_1 881567591#1_1 881567591#2_1" pos="0.46" endPos="12.75" period="60.00" file="outputs/z_r2ps_to_ach1_mgp.xml"/>
+   <e1Detector id="detector_0" lane="689277286#1" pos="67" freq="50.00" file="detectors_Zone_RA1_RA2.xml" friendlyPos="0"/>
+ 
+ 
+ 
+  <laneAreaDetector id="detector_1" lanes="23749115#0_1 23749115#1_1 23749115#2_1" pos="0.82" endPos="5.13" period="60.00" file="z_rp5_to_rp4.xml"/>
+ <laneAreaDetector id="detector_0" lanes="23749115#0_2 23749115#1_2 23749115#2_2" pos="1.18" endPos="5.52" period="60.00" file="z_rp5_to_rp4.xml"/>
+
+
+   <edgeData id="detector_0" period="60" file="detectors_Zone_RA5_RA4.xml" edges="23749115#0 23749115#1 23749115#2" />
+ <laneAreaDetector id="detector_0" lanes="814259719_0 689277284#0_0 689277288#0_0 689277288#1_0 689277288#2_0 881567591#0_0 881567591#1_0 881567591#2_0" pos="4.87" endPos="13.13" period="60.00" file="detectors_Zone_RA1_RA2.xml"/>
+   
+ <e1Detector id="detector_0" lane="689277286#1" pos="67" freq="50.00" file="detectors_Zone_RA1_RA2.xml" friendlyPos="0"/> 
+    <inductionLoop id="detector_0" lane="689277284#2_0" pos="0.98" period="60.00" file="detectors_Zone_RA1_RA2.xml" friendlyPos="1"/>
+ 
+ <e1Detector id="detector_1" lane="319292433_3257049721_1288275815_1" pos="700" freq="100.00" file="detectors.txt" friendlyPos="0"/>
+    <e1Detector id="detector_2" lane="319292433_3257049721_1288275815_2" pos="700" freq="100.00" file="detectors.txt" friendlyPos="0"/>
+
+    <laneAreaDetector id="detector_0" lanes="814259719_0 689277284#0_0 689277288#0_0 689277288#1_0 689277288#2_0 881567591#0_0 881567591#1_0 881567591#2_0" pos="4.87" endPos="13.13" period="60.00" file="detectors_Zone_RA1_RA2.xml"/>
+  
+      --> 
+
+     
+     
+     
+</additional>
